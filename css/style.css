@@ -1,0 +1,105 @@
+body {
+  color: #222831;
+  background-color: #ffe6eb;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#welcome-section {
+  background-image: url(../img/welcome.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 30rem;
+  width: 100%;
+  color: #fff;
+  font-family: 'Caveat Brush', cursive;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: 'Caveat Brush', cursive;
+  color: #c1224f;
+  padding: 50px 0 20px 0;
+}
+
+a {
+  color:white;
+}
+
+a:hover {
+  color:#e3e3e3;
+  text-decoration: none;
+}
+
+.navbar {
+  font-family: 'Caveat Brush', cursive;
+  background-color: #c1224f;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 1.125rem;
+}
+
+.btn-secondary {
+  background-color: #c1224f;
+  border-color: #c1224f;
+}
+
+.btn-secondary:hover {
+  background-color: #c1224f;
+  border-color: #c1224f;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+  background-color: #c1224f;
+  border-color: #c1224f;
+}
+
+.show>.btn-secondary.dropdown-toggle:focus {
+  box-shadow: 0;
+}
+
+#footer {
+  background-color: #c1224f;
+  color: #ffffff;
+}
+
+.card {
+  background-color: #ffe6eb;
+}
+
+@media (min-width: 992px) {
+  #welcome-section {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1500px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2,h3 {
+    font-size: 2rem;
+  }
+}
